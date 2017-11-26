@@ -1,0 +1,212 @@
+body{
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+/*Header*/
+header img{
+  margin: auto auto auto 1rem;
+  max-width: 16.5%;
+  height: auto;
+}
+
+header a.btn{
+  margin-left: 1rem;
+}
+
+i.icon-black {
+    color: black;
+    margin-top: -1rem;
+}
+
+header ul{
+  margin: auto 1rem auto auto;
+}
+
+header div a i{
+  margin-top: -0.6rem;
+}
+
+header nav li a{
+  color: #76ff03 ;
+  font-size: 1.5rem;
+}
+
+
+#slide-out a{
+  font-size: 25px;
+    margin: 10% auto auto 1%;
+}
+/*Home*/
+#home{
+  background-color:#fff;
+  padding: 0;
+  margin: 0;
+}
+
+  .home_class{
+  	padding-top: 8%;
+  	position: relative;
+  	height: auto;
+  }
+
+  .home_class video{
+  	width: 100%;
+  	height: auto;
+    margin-bottom: 2%;
+  }
+
+  .home_class div div{
+  	margin: 0;
+  	padding: 0;
+  }
+
+  .home_titulo {
+  	position: absolute;
+  	z-index: 1;
+  	color: white;
+  	width: 100%;
+  	height: auto;
+  }
+
+  .home_titulo h2{
+  	padding-top: 2%;
+  }
+
+  .home_titulo h1 {
+  	text-align: center;
+  	font-weight: bold;
+   	font-size: 100px;
+    padding-top: 20%;
+    letter-spacing: 3rem;
+  }
+
+/*Sobre*/
+#sobre{
+  padding-top: 10%;
+  padding-bottom: 10%;
+
+}
+
+#sobre img{
+  margin: 2rem auto auto 10%;
+  width: 85%;
+  height: auto;
+  border-radius: 2;
+}
+
+#content-sobre article{
+  text-align: justify;
+  font-size: 2rem;
+}
+
+#content-sobre h3{
+  font-size: 6rem;
+}
+/*Portfolio*/
+#portfolio{
+  background-color: #dfc11f;
+}
+
+#portfolio div{
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+}
+
+#portfolio h3, h5{
+  color: #fff ;
+}
+
+#portfolio #content-sobre div{
+    width: auto;
+    height:45rem;
+    margin-top: -5rem;
+}
+
+#portfolio #content-sobre div a img{
+    max-width:40rem;
+    max-height:35rem;
+    width: auto;
+    height: auto;
+}
+
+/*Contatos*/
+#contato{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#contato-content a{
+  margin-right: 0.5rem;
+  margin-top: 0.4rem;
+  font-size: 1.5rem;
+}
+
+#contato-content{
+  display: flex;
+}
+
+#contato-content.align-center{
+  text-align: center;
+}
+
+#contato h3{
+  font-size: 6rem;
+}
+
+#contato label{
+  font-size: 1.5rem;
+}
+
+.font-assunt{
+  font-size: 1.5rem;
+}
+
+.fa{
+  font-size: 2.5rem;
+}
+
+/*Footer*/
+footer div{
+  font-size: 1.5rem;
+}
+
+/*Mobile*/
+@media screen and (max-width: 450px) {
+
+  #content-sobre p{
+    font-size: 1.5rem;
+  }
+
+  #sobre{
+    background-size: 120% 100%;
+  }
+
+  #sobre img{
+    width: 0px;
+    padding: 0;
+    margin: 0;
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 992px) {
+    header img{
+      max-width: 11.5rem;
+      height: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+  header img{
+    max-width: 10rem;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1032px and min-width: 992px) {
+  header img{
+    max-width: 10rem;
+    height: auto;
+  }
+}
